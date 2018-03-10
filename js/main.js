@@ -124,7 +124,6 @@
 				, "img/bg6.jpg"
 				, "img/bg10.jpg"
 				, "img/bg8.jpg"
-				, "img/bg2.jpg"
 
 			  ], {duration: 4000, fade: 1000});
 		}		

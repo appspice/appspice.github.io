@@ -1955,10 +1955,36 @@ ul#portfolio-filter .no-padd img {
 	scrollToTop
 ==================================================== */
 /* line 2077, ../sass/style.scss */
+.contactToTop {
+  width: 52px;
+  height: 52px;
+  padding: 10px 10px;
+  vertical-align:bottom;
+  text-align: center;
+  font-weight: bold;
+  color: #f1f1f1;
+  text-decoration: none;
+  position: fixed;
+  top: 200px;
+  right: 10px;
+  cursor: pointer;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1100;
+  -webkit-backface-visibility: hidden;
+  -webkit-transform: translateZ(0);
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 52px;
+  border-radius: 52px; }
+  
 .scrollToTop {
   width: 42px;
   height: 42px;
-  padding: 8px 10px;
   text-align: center;
   font-weight: bold;
   color: #f1f1f1;
