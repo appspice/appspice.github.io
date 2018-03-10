@@ -698,6 +698,10 @@ a.link {
   /* line 737, ../sass/style.scss */
   #slider-banner i {
     font-size: 130px; }
+  #slider-banner img {
+    font-size: 130px;
+    text-align: center;
+     }
   /* line 740, ../sass/style.scss */
   #slider-banner h2 {
     font-size: 60px;
