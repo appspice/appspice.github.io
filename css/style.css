@@ -122,59 +122,59 @@ blockquote .small, blockquote footer, blockquote small {
 ====================================================*/
 /* line 120, ../sass/style.scss */
 .dark-bg {
-  background: #000; }
+  background: #595757 !important}
 
 /* line 121, ../sass/style.scss */
 .light-bg {
-  background: #f6f6f6; }
+  background: #f6f6f6 !important }
 
 /* line 122, ../sass/style.scss */
 .green-bg {
-  background: #00A600; }
+  background: #00A600 !important }
 
 /* line 123, ../sass/style.scss */
 .blue-bg {
-  background: #2E8DEF; }
+  background: #2E8DEF !important}
+/* line 123, ../sass/style.scss */
+
+.dark-blue-bg {
+  background: #006DB2 !important} 
 
 /* line 124, ../sass/style.scss */
 .orange-bg {
-  background: #DC572E; }
+  background: #DC572E !important }
 
 /* line 125, ../sass/style.scss */
 .red-bg {
-  background: #BF1E4B; }
+  background: #BF1E4B !important }
 
 /* line 126, ../sass/style.scss */
 .purple-bg {
-  background: #A700AE; }
+  background: #A700AE !important }
 
 /* line 127, ../sass/style.scss */
 .aqua-bg {
-  background: #27d7e7; }
+  background: #27d7e7 !important }
 
 /* line 128, ../sass/style.scss */
 .brown-bg {
-  background: #9c8061; }
-
-/* line 129, ../sass/style.scss */
-.dark-blue-bg {
-  background: #2672EC; }
+  background: #9c8061 !important }
 
 /* line 130, ../sass/style.scss */
 .light-green-bg {
-  background: #79d5b3; }
+  background: #79d5b3 !important }
 
 /* line 131, ../sass/style.scss */
 .dark-red-bg {
-  background: #a10f2b; }
+  background: #a10f2b !important }
 
 /* line 132, ../sass/style.scss */
 .teal-bg {
-  background: #00A0B1; }
+  background: #00A0B1 !important }
 
 /* line 133, ../sass/style.scss */
 .dark-purple-bg {
-  background: #643EBF; }
+  background: #643EBF !important }
 
 /* ==================================================
 	font
@@ -182,10 +182,10 @@ blockquote .small, blockquote footer, blockquote small {
 
 /* line 133, ../sass/style.scss */
 .light-font {
-  background: #f1f1f1; !important }
+  background: #f1f1f1 !important }
   
 .dark-font {
-  color: #595757; !important }
+  color: #595757 !important }
 
 /* ==================================================
 	social
