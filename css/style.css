@@ -4,7 +4,7 @@ html, body {
 
 /* line 8, ../sass/style.scss */
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Noto Sans KR', sans-serif;
   background: #000;
   font-size: 15px;
   line-height: 1.8em;
@@ -175,6 +175,17 @@ blockquote .small, blockquote footer, blockquote small {
 /* line 133, ../sass/style.scss */
 .dark-purple-bg {
   background: #643EBF; }
+
+/* ==================================================
+	font
+====================================================*/
+
+/* line 133, ../sass/style.scss */
+.light-font {
+  background: #f1f1f1; !important }
+  
+.dark-font {
+  color: #595757; !important }
 
 /* ==================================================
 	social
