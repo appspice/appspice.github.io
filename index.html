@@ -9,7 +9,7 @@
 
 		<!-- Bootstrap -->
 		<link href="css/bootstrap.min.css" rel="stylesheet">
-				
+					
 		<!-- Font Awesome CSS -->
 		<link href="css/font-awesome/font-awesome.min.css" rel="stylesheet">
 		
@@ -17,13 +17,23 @@
 		<link href="css/simple-line-icons/simple-line-icons.css" rel="stylesheet">
 		
 		<!-- google font -->
-		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css'>
-				
+		<link href='http://fonts.googleapis.com/earlyaccess/notosanskr.css' rel='stylesheet' type='text/css'>
+		
+		<!-- owl-carousel -->
+		<link href="plugins/owl-carousel/owl.carousel.css" rel="stylesheet">
+		<link href="plugins/owl-carousel/owl.theme.css" rel="stylesheet">
+		
+		<!-- magnific-popup -->
+		<link href="plugins/magnific-popup/magnific-popup.css" rel="stylesheet">
+		
 		<!-- animate -->
 		<link href="css/animate/animate.css" rel="stylesheet">
 		
 		<!-- style -->
 		<link href="css/style.css" rel="stylesheet">
+		
+		<!-- switcher -->
+		<link href="switcher/switcher.css" rel="stylesheet">
 		
 		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -43,10 +53,8 @@
    		</script>
 	</head>
 	<body class="slider-background">
-	
-	
-	
-		<!-- Preloader -->
+		
+		<!-- Preloader 	-->
 		<div id="preloader">
 			<div id="status">&nbsp;</div>
 		</div>
@@ -56,40 +64,463 @@
 		<div id="bg_pattern"></div>
 		<!-- ./pattern -->
 		
-	
+		<!-- scrollToTop -->	
+		<a href="#" class="scrollToTop">
+			<i class="fa fa-angle-up fa-2x"></i>
+		</a>
+		<!-- ./scrollToTop -->
+		<!-- contact -->
+		<a href="https://goo.gl/forms/APJhs7YHvVFXW8V73" class="contactToTop animated infinite swing" target="_blank"><i class="fa fa-question fa-2x"></i></a>
+		<!-- ./contact -->
+		 
+		<!-- header -->	
+		<header id="header">
+			<nav class="navbar navbar-inverse navbar-fixed-top">
+			  <div class="container">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+				  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse-navbar" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				  </button>
+				  <a class="navbar-brand" href="index.html">
+					<img src="img/logo-big.png" alt="logo">
+				  </a>
+				</div>
+
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="collapse-navbar">
+				 
+				  <ul class="nav navbar-nav navbar-right">
+					<li><a data-scroll href="#services">Our Services</a></li>
+					<li><a data-scroll href="#product">Product</a></li>
+					<li><a data-scroll href="#news">News</a></li>
+					<li><a data-scroll href="#lineup">Line up</a></li>
+					<li><a href="https://goo.gl/forms/APJhs7YHvVFXW8V73" target="_blank">Contact</a></li>					
+					<li><a data-scroll href="#portfolio">About Spiceware Co.</a></li>
+				  </ul>
+				</div><!-- /.navbar-collapse -->
+			  </div><!-- /.container -->
+			</nav>	
+		</header>
+		<!-- ./header -->	
 		
-		<!-- coming-soon -->
-		<section id="coming-soon" class="section">
-			<div class="container">
-				<div class="row">
+		
+		<!-- slider-banner -->	
+		<section id="slider-banner" class="section wow fadeInUp">
+			<div class="container">										
+				<!-- slider -->	
+				<div id="slider" class="owl-carousel">
+					<div class="item">	
+						<img src="img/simple.png" alt="image">
+						<h2>SIMPLE</h2>
+						<p>프로그램 수정이 필요없는 설정 방식의 고객정보 암호화</p>								
+						<a data-toggle="modal" data-target="#modal-simple" class="btn btn-custom btn-lg">자세히 보기</a>											
+					</div>	
+					<div class="item">	
+						<img src="img/resonable.png" alt="image">
+						<h2>RESONABLE</h2>
+						<p>구축 및 도입 비용이 저렴한 준비되어 있는 고객정보 암호화</p>								
+						<a data-toggle="modal" data-target="#modal-resonable" class="btn btn-custom btn-lg">자세히 보기</a>												
+					</div>
+					<div class="item">	
+						<img src="img/strong.png" alt="image">
+						<h2>STRONG</h2>
+						<p>클라우드 환경에 최적화된 분산 암호데이터 구조로 한번 더 강력하게 보호</p>								
+						<a data-toggle="modal" data-target="#modal-strong" class="btn btn-custom btn-lg">자세히 보기</a>										
+					</div>
+
+				</div>	
+				<!-- ./slider -->						
+			</div>		
+		</section>
+		<!-- ./slider-banner -->
+		
+		<!-- services -->
+		<section id="services" class="section">
+			<div class="container">	
 			
-					<h1 class="wow fadeInUp" data-wow-delay=".5s">SPICEWARE COMING SOON</h1>
-					<p class="wow fadeInUp" data-wow-delay="1s">We are building our awesome new cloud security service.</p>
-					<p class="wow fadeInUp" data-wow-delay="1s">방문해 주셔서 감사합니다. 지능형 고객정보 보안 클라우드 서비스가 곧 찾아옵니다.</p>
-					
-					<div id="countdown" class="style1 wow fadeInUp" data-wow-delay="1.5s"></div>
-					
-					<!--
-					<ul class="list-inline padd-tb-10  wow fadeInUp" data-wow-delay="2s">
-						<li><a href="#" class="icon-holder facebook large circle"><i class="fa fa-facebook"></i></a></li>
-						<li><a href="#" class="icon-holder twitter large circle"><i class="fa fa-twitter"></i></a></li>
-						<li><a href="#" class="icon-holder linkedin large circle"><i class="fa fa-linkedin"></i></a></li>
-						<li><a href="#" class="icon-holder google-plus large circle"><i class="fa fa-google-plus"></i></a></li>
-						<li><a href="#" class="icon-holder youtube large circle"><i class="fa fa-youtube-play"></i></a></li>
-					</ul>
-						-->
-									<button class="btn btn-custom btn-lg wow fadeInUp" data-wow-delay="2s" onclick="window.open('https://drive.google.com/file/d/1XKZJ7n45dWdCsWBozchuiezO7H7TFQD7/view?usp=sharing')" >제품소개서</button>
-									<button class="btn btn-custom btn-lg wow fadeInUp" data-wow-delay="2s" onclick="window.open('https://goo.gl/forms/APJhs7YHvVFXW8V73')">도입문의</button>
+				<div class="section-heading">
+					<h2>SPICEWARE FOR CLOUD</h2>
+					<div class="separator"></div>	
+				</div>
+				<div class="row wow fadeInUp" data-wow-delay=".5s">
+					<div class="col-md-12 col-sm-12">
+						<div class="services style2">
+							<img src="img/service01.png" alt="icon">
+							<p>SECaaS(Security as a Service)로 제공되는 고객정보 암호화 서비스</p>
+						</div>
+					</div>
 				</div><!-- ./row -->	
+				<div class="row wow fadeInUp" data-wow-delay="1s">
+					<div class="col-md-12 col-sm-12">
+						<div class="services style2">
+							<a href="http://www.spiceware.io" class="btn btn-custom btn-lg dark-blue-bg" target="_blank">서비스 이용</a>
+						</div>
+					</div>
+				</div><!-- ./row -->	
+			</div>
+				
+		</section>
+		<!-- ./services -->
+		<!-- product -->
+		<section id="product" class="section blue-bg">
+			<div class="container">	
+			
+				<div class="section-heading">
+					<h2>SPICEWARE</h2>
+					<div class="separator"></div>						
+				</div>
+				
 				<div class="row">
-					<p>SIMPLE | RESONABLE | STORNG<br>Intelligence cloud services for securing customer information. &copy;2018 Spiceware Co.</p>
-				</div><!-- ./row -->	
+					<div class="col-md-12 col-sm-12">
+						<div class="services">							
+							<div class="content">
+								<p><h3>DB 암호화 정말 필요한가요?</h3>소량의 정보를 교환하던 시대에서  IT기술의 발전으로 대량의 정보를 교환하는 시대로 변하였습니다. 우리는 시간과 공간의 제약이 없는 디지털 사회에 살고 있고 개인이 식별되는 경우의 수가 더 많아지고 <b>개인정보의 가치는 점점 더 중요</b> 해 지고 있는 것이 현실입니다. 모든 시스템에서 관리하는 개인정보의 유통과 보관이 첨단 IOT제품과 Mobile 장치로부터 스토리지와 관계형 데이터베이스를 넘어 빅데이터에 이르기까지 다양해 지고 있으며, 각종 개인정보 유출 사건으로 ‘개인정보보호법’의 처벌 조항은 날로 강화되고 있습니다. 이제는 <b>개인정보보호는 선택이 아닌 필수</b> 입니다.<img src="img/product_png/product-01.png"  class="img-responsive"></p>
+							</div>
+						</div>
+					</div>
+					</div>
+					<!-- ./row -->
+					
+					<div class="row">
+						<div class="col-md-12 col-sm-12">
+							<div class="services">							
+								<div class="content">
+									<p><h3>개인정보보호 솔루션의 조건</h3>개인정보보호의 최종 목적은 안전한 정보자산 관리입니다. 개인정보보호 솔루션은 사용이 쉬워야 하고,  어플리케이션 변화에 빠르게 변경 적용 할 수 있는 구성을 가지고 있어야 하며,  어떤 공격에도 개인정보를 지킬 수 있도록 강해야 합니다. Spiceware는 Simple 한 사용,  Reasonable 한 구성, Strong 한 개인정보보호를 목표로 하고 있습니다.<img src="img/product_png/product-03.png"  class="img-responsive"></p>
+								</div>
+							</div>
+						</div>
+					</div><!-- ./row -->
+	
+					<div class="row">
+						<div class="col-md-12 col-sm-12">
+							<div class="services">							
+								<div class="content">
+									<p><h3>Spiceware의 지원 전략</h3>기업의 개인정보보호 라이프사이클에 맞춘 전 단계의 개인정보 보호 도구를 지원합니다.<img src="img/product_png/product-04.png"  class="img-responsive"></p>
+								</div>
+							</div>
+						</div>
+					</div><!-- ./row -->
+					
+					<div class="row">
+						<div class="col-md-12 col-sm-12">
+							<div class="services">							
+								<div class="content">
+									<p><h3>Spiceware 특징</h3>Spiceware는 차별화된 특징을 바탕으로 고객의 개인정보 보호 이슈를 강력하고 효율적으로 해결합니다.<img src="img/product_png/product-19.png"  class="img-responsive"></p>
+								</div>
+							</div>
+						</div>
+					</div><!-- ./row -->		
+					
+					<div class="row">
+						<div class="col-md-12 col-sm-12">
+							<div class="services">							
+								<div class="content">
+									<p><h3>국내 최초 필터 방식</h3>Http 요청 필터와 SQL 필터 방식을 채용한 통합 개인정보보호 서비스인 Spiceware는 RDBMS에서 Big data 시스템에 이르기 까지 쉽고 빠르게 기업의 개인정보 보호 이슈를 해결 해 주는 서비스입니다.<img src="img/product_png/product-06.png"  class="img-responsive"></p>
+								</div>
+							</div>
+						</div>
+					</div><!-- ./row -->	
+										
+					<div class="row">
+						<div class="col-md-12 col-sm-12">
+							<div class="services">							
+								<div class="content">
+									<p><h3>어플리케이션 수정이 필요없는 암복호화수행</h3>
+									<ul>
+										<li>Transaction 로그 수집<br>고객 Application의 수행 속도에 영향이 없도록 필터 후 Queue를 이용하여 Async로 Transaction 로그를 기록합니다.</li>
+									    <li>암호화 수행<br>고객 Application의 수행 전 파라미터 정보를 필터링하여 암호문으로 변경하여 전달합니다.<br>고객 Application의 수행 후 SQL 정보를 필터링하여 암호문으로 변경하여 전달합니다.</li>
+										<li>복호화 수행<br>고객 Application의 수행 후 RDBMS로 부터 전송되는 SQL ResultSet 정보를 평문으로 치환하여 복호화된 데이터를 고객 어플리케이션에 전달합니다.<br>고객 Application의 수행 후 사용자에게 전달되는 응답 Stream에서 암호문을 평문으로 치환하여 고객에게 전달합니다.</li>
+									</ul>
+									<img src="img/product_png/product-09.png"  class="img-responsive"></p>
+								</div>
+							</div>
+						</div>
+					</div><!-- ./row -->		
+	
+					
+					<div class="row">
+						<div class="col-md-12 col-sm-12">
+							<div class="services">							
+								<div class="content">
+									<p><h3>전송구간 암호화</h3>
+										<ul>
+											<li>Secure Socket  적용으로 전송구간이 암호화 되어 공격 소프트웨어를 통한 소켓 미러링이 불가능하도록 차단합니다.</li>
+											<li>알려지지 않은 방법으로 해킹에 성공하여도 전문 암호화를 통해서 통신 전문의 해석이 불가능합니다.</li>
+											<li>접속지 정보와 인증키가 공유되어 인증되지 않는 외부 프로그래 접속 시 자동 차단 및 무응답 처리 됩니다.</li>
+										</ul>
+									<img src="img/product_png/product-10.png"  class="img-responsive"></p>
+								</div>
+							</div>
+						</div>
+					</div><!-- ./row -->		
+							
+					<div class="row">
+						<div class="col-md-12 col-sm-12">
+							<div class="services">							
+								<div class="content">
+									<p><h3>모듈화 되어 있는 암호화 엔진</h3>
+										<ul>
+											<li>Spice.dca는 유일하게 Spice.ks (KeyServer) 와 통신이 가능한 모듈로써 암복호화를 수행하는 모듈입니다.</li>
+											<li>모듈 형 Cipher 적용으로 암호화 알고리즘의 추가와 변경이 용이한 구조로 구성되어 있습니다.</li>
+											<li>빠른 수행을 위해 Cipher Caching이 적용되어 있습니다. ( Application 기동 시 메모리에 암호화된 Byte Key 적재)</li>
+										</ul>
+									<img src="img/product_png/product-11.png"  class="img-responsive"></p>
+								</div>
+							</div>
+						</div>
+					</div><!-- ./row -->		
+					
+					<div class="row">
+						<div class="col-md-12 col-sm-12">
+							<div class="services">							
+								<div class="content">
+									<p><h3>기밀성 확보를 위한 키 관리</h3>
+										<ul>
+											<li>Spice.ks는 고객 시스템 별로 존재하는 별도 KeyStore에서 Key를 추출하거나 버전 별로 저장하는 역할을 수행하는 모듈입니다.</li>
+											<li>Spice.dca에서 Key 전송 요청 시 Secure Socket을 통해서 요청 고객시스템의 암복호화 Key를 전달합니다.</li>
+										</ul>
+									<img src="img/product_png/product-12.png"  class="img-responsive"></p>
+								</div>
+							</div>
+						</div>
+					</div><!-- ./row -->		
+					
+					<div class="row">
+						<div class="col-md-12 col-sm-12">
+							<div class="services">							
+								<div class="content">
+									<p><h3>Transaction 수집</h3>Spice.ags는 부하량에 따라 자동으로 scale out을 수행하는 모듈로써 각 Spice.agent의 요청량에 따라 자동으로 병렬 증가 됩니다. 이때에도 별다른 설정없이 자동으로 Audit repository에 각 Spice.agent에서 전송된 Transaction 정보가 자동 저장됩니다.	<img src="img/product_png/product-13.png"  class="img-responsive"></p>
+								</div>
+							</div>
+						</div>
+					</div><!-- ./row -->		
+					
+					<div class="row">
+						<div class="col-md-12 col-sm-12">
+							<div class="services">							
+								<div class="content">
+									<p><h3>Cloud 환경에 최적화된 아키텍처</h3>많은 DB암호화 제품들이 API방식이나 DB 플러그인 방식을 벗어나지 못하고 있습니다. 그러나 Spiceware는 Cloud 환경에서 개발되었고 Cloud 환경에 어떤 DB암호화 솔루션이 필요한지를 생각하고 설계되어 있습니다. 물론, 기존의 On-premise 환경에서도 Private Cloud나  Public Cloud 등 어떠한 환경에서도 손쉽게 적용이 가능한 아키텍처로 설계되어 있습니다.<img src="img/product_png/product-14.png"  class="img-responsive"></p>
+								</div>
+							</div>
+						</div>
+					</div><!-- ./row -->		
+									
+					<div class="row">
+						<div class="col-md-12 col-sm-12">
+							<div class="services">							
+								<div class="content">
+									<p><h3>Cloud 환경에 최적화된 아키텍처</h3>많은 DB암호화 제품들이 API방식이나 DB 플러그인 방식을 벗어나지 못하고 있습니다. 그러나 Spiceware는 Cloud 환경에서 개발되었고 Cloud 환경에 어떤 DB암호화 솔루션이 필요한지를 생각하고 설계되어 있습니다. 물론, 기존의 On-premise 환경에서도 Private Cloud나  Public Cloud 등 어떠한 환경에서도 손쉽게 적용이 가능한 아키텍처로 설계되어 있습니다.<img src="img/product_png/product-14.png"  class="img-responsive"></p>
+								</div>
+							</div>
+						</div>
+					</div><!-- ./row -->		
+				</div>
+		</section>
+		<!-- ./product -->	
+		
+		<!-- news -->
+		<section id="news" class="section wow fadeInUp">
+			<div class="container">
+			
+				<div class="section-heading">
+					<h2>News</h2>
+					<div class="separator"></div>						
+				</div>
+				
+				<!-- blog-carousel2 -->	
+				<div id="blog-carousel2" class="owl-carousel">
+					<div class="item">	
+						<div class="blog-box2">
+							<figure>
+								<img src="img/img1.jpg" alt="image" class="img-responsive">
+								<ul>
+									<li><i class="fa fa-calendar"></i> <span>Jan 3, 2016</span></li>
+									<li><i class="fa fa-comment"></i> <span>180</span></li>
+								</ul>
+							</figure>
+							<h4>Snowy Forest</h4>
+							<p> Lorem ipsum dolor sit amet Maecenas ullamcorper diam nec augue semper ...</p>		
+							<a href="blog-single.html" class="link">Read more...</a>	
+						</div>	
+					</div>
+		
+				</div>	
+				<!-- ./blog-carousel2 -->	
+					
+			</div>
+				
+		</section>
+		<!-- ./news -->
+
+		<!-- lineup -->
+		<section id="lineup" class="section wow fadeInUp  light-bg dark-font">
+			<div class="container">
+			
+				<div class="section-heading dark-font">
+					<h2 class="dark-font">lineup of Spiceware</h2>
+					<div class="separator dark-bg"></div>						
+				</div>
+				
+				<div class="row">
+						<div class="col-md-10 col-sm-10">
+							<p>고객의 개인정보보호 요건에 충족할 수 있도록 Spiceware는 다양한 제품을 제공합니다</p>
+							<img src="img/product_png/product-20.png" alt="image" class="img-responsive">
+						</div>
+				</div>
+					
 			</div>
 	
 		</section>
-		<!-- ./coming-soon -->
+		<!-- ./pricing -->		
+		<!-- pricing -->
+		<!--
+		<section id="pricing" class="section wow fadeInUp">
+			<div class="container">
+			
+				<div class="section-heading">
+					<h2>Pricing</h2>
+					<div class="separator"></div>						
+				</div>
+				
+				<div class="row">
+					<div class="col-md-4">
+						<div class="price-box1">
+							<h2>StartUp</h2>
+							<div class="price">
+								$15.00
+							</div>
+							<p>Small Business Solution</p>
+							<ul>
+								<li>Unlimited calls</li>
+								<li>Free hosting</li>
+								<li>40MB of storage space</li>
+							</ul>							
+							<a href="#" class="btn btn-success btn-lg btn-block">Choose Plan</a>							
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="price-box1">
+							<h2>Standard</h2>
+							<div class="price">
+								$29.99
+							</div>
+							<p>Medium Business Solution</p>
+							<ul>
+								<li>Unlimited calls</li>
+								<li>Free hosting</li>
+								<li>10 hours of support</li>
+								<li>Social media integration</li>
+								<li>1GB of storage space</li>
+							</ul>							
+							<a href="#" class="btn btn-success btn-lg btn-block">Choose Plan</a>							
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="price-box1">
+							<h2>Professional</h2>
+							<div class="price">
+								$79.99
+							</div>
+							<p>Gigantic  Business Solution</p>
+							<ul>
+								<li>Unlimited calls</li>
+								<li>Free hosting</li>
+								<li>Unlimited hours of support</li>
+								<li>Social media integration</li>
+								<li>Anaylitcs integration</li>
+								<li>Unlimited storage space</li>
+							</ul>							
+							<a href="#" class="btn btn-success btn-lg btn-block">Choose Plan</a>							
+						</div>
+					</div>
+					
+				</div><!-- ./row -->
+					
+			</div>
+	
+		</section>
+		-->
+		<!-- ./pricing -->
 		
-
+			
+		<!-- footer -->
+		<footer id="footer">
+			<div class="container">
+			<!--
+				<ul class="list-inline">
+					<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+					<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+					<li><a href="#"><i class="fa fa-google"></i></a></li>
+				</ul>
+			-->
+				<div class="copyright">SIMPLE | RESONABLE | STORNG<br>Intelligence cloud services for securing customer information. &copy;2018 Spiceware Co.</div>
+			</div>
+		</footer>
+		<!-- ./footer -->
+		
+		<!-- main simple detail -->
+			<div id="modal-simple" class="modal fade modal-theme"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			  <div class="modal-dialog" role="document">
+				<div class="modal-content">
+				  <div class="modal-header light-bg">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h4 class="modal-title dark-font" id="myModalLabel">암호화 대상 수집분석 및 모니터링</h4>
+				  </div>
+				  <div class="modal-body light-bg dark-font">
+					<figure><img src="img/product_png/product-08.png" alt="image" class="img-responsive text-center"></figure>
+					<!--text here --> 
+					 <p>
+					 <ul>
+					 <li>설치 및 통신 상태 모니터링과 수집 분석 페이지를 통한 암복호화 대상 식별 및 암복호화 수행여부 스위칭을 웹 인터페이스로 쉽게 관리가 가능하도록 구성하였습니다.</li>
+					 <li>Dashboard 제공으로 암복호화 수행 상태를 한 화면으로 모니터링이 가능합니다.</li>
+					 <li>어플리케이션에서 수행한 암복호화 관련 각종 통계 정보를 제공하여 감사가 가능하도록 합니다.</li> 
+					 </ul></p>
+					 <!-- ./ text here -->
+				 </div>
+				</div>
+			  </div>
+			</div>
+		<!-- ./ main simple detail -->
+		<!-- main resonable detail -->
+			<div id="modal-resonable" class="modal fade modal-theme"  tabindex="-2" role="dialog" aria-labelledby="myModalLabel">
+			  <div class="modal-dialog" role="document">
+				<div class="modal-content">
+				  <div class="modal-header light-bg">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h4 class="modal-title dark-font" id="myModalLabel">3無를 통한 합리적인 구축 비용</h4>
+				  </div>
+				  <div class="modal-body light-bg dark-font">
+					<figure><img src="img/product_png/product-05.png" alt="image" class="img-responsive text-center"></figure>
+					<!--text here --> 
+					 <p>암호화 구축을 위해서 꼭 필요했던 3가지 요소를 제거하여 구축 비용을 절감합니다.</p>
+					 <!-- ./ text here -->
+				 </div>
+				</div>
+			  </div>
+			</div>
+		<!-- ./ main resonable detail -->
+		<!-- main strong detail -->
+			<div id="modal-strong" class="modal fade modal-theme"  tabindex="-3" role="dialog" aria-labelledby="myModalLabel">
+			  <div class="modal-dialog" role="document">
+				<div class="modal-content">
+				  <div class="modal-header light-bg">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h4 class="modal-title dark-font" id="myModalLabel">데이터 분산을 통한 보호</h4>
+				  </div>
+				  <div class="modal-body light-bg dark-font">
+					<figure><img src="img/product_png/product-15.png" alt="image" class="img-responsive text-center"></figure>
+					<!--text here --> 
+					 <p>타 DB 암호화 솔루션은 암호화 데이터가 일반데이터와 연관 관계가 유지되어 관리되는 반면 Spiceware는 암호화 데이터가 연관 관계가 없이 관리되어 암호데이터 식별 키,  암호 키, 암호 데이터를 분산하여 강력한 보안 기능을 제공합니다.</p>
+					 <!-- ./ text here -->
+				 </div>
+				</div>
+			  </div>
+			</div>
+		<!-- ./ main strong detail -->
 
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->		
 		<script src="js/jquery-1.11.3.min.js"></script>	
@@ -100,13 +531,25 @@
 		
 		<!-- backstretch -->
 		<script src="plugins/backstretch/backstretch.min.js"></script>
-				
+		
+		<!-- owl-carousel -->
+		<script src="plugins/owl-carousel/owl.carousel.js"></script>
+		
 		<!-- wow -->
 		<script src="plugins/wow/wow.js"></script>
 		
-		<!-- countdown -->
-		<script src="plugins/countdown/jquery.countdown.min.js"></script>
-										
+		<!-- typed -->
+		<script src="plugins/typed/typed.min.js"></script>
+						
+		<!-- magnific-popup -->
+		<script src="plugins/magnific-popup/jquery.magnific-popup.js"></script>
+		
+		<!-- jqBootstrapValidation -->
+		<script src="plugins/jqBootstrapValidation/jqBootstrapValidation.js"></script>
+		
+		<!-- switcher -->
+		<script type="text/javascript" src="switcher/switcher.js"></script> 
+					
 		<!-- main js -->
 		<script src="js/main.js"></script>
 		
